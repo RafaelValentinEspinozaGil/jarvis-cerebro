@@ -63,3 +63,10 @@ async def jarvis(task: Task):
 @app.get("/")
 def home():
     return {"status": "JARVIS ONLINE - Esperando órdenes de Rafael"}cerebro
+
+fastapi
+uvicorn
+openai
+python-pptx
+requests
+python-multipart
